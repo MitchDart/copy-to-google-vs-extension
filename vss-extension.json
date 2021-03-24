@@ -1,0 +1,49 @@
+{
+  "manifestVersion": 1,
+  "id": "copy-files-to-google-buckets",
+  "publisher": "GlobalFreightSolutionsLtd",
+  "version": "2.0.2",
+  "name": "Copy Files to Google Buckets",
+  "description": "Will copy specified files to google cloud storage buckets",
+  "public": true,
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "categories": [
+    "Azure Pipelines"
+  ],
+  "content": {
+    "details": {
+      "path": "overview.md"
+    }
+  },
+  "tags": [
+    "Google",
+    "Bucket",
+    "Upload",
+    "GFS",
+    "GCS"
+  ],
+  "icons": {
+    "default": "icon.png"
+  },
+  "files": [
+    {
+      "path": "buildAndReleaseTask"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "custom-build-release-task",
+      "type": "ms.vss-distributed-task.task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "properties": {
+        "name": "buildAndReleaseTask"
+      }
+    }
+  ]
+}
