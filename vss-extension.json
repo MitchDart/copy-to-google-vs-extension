@@ -1,10 +1,10 @@
 {
   "manifestVersion": 1,
-  "id": "copy-files-to-google-buckets",
-  "publisher": "GlobalFreightSolutionsLtd",
-  "version": "2.0.2",
-  "name": "Copy Files to Google Buckets",
-  "description": "Will copy specified files to google cloud storage buckets",
+  "id": "copy-folder-to-google-buckets",
+  "publisher": "SticittPtyLtd",
+  "version": "0.1.0",
+  "name": "Copy Folder to Google Buckets",
+  "description": "Will copy specified folder to google cloud storage bucket",
   "public": true,
   "targets": [
     {
@@ -22,9 +22,7 @@
   "tags": [
     "Google",
     "Bucket",
-    "Upload",
-    "GFS",
-    "GCS"
+    "Upload"
   ],
   "icons": {
     "default": "icon.png"
